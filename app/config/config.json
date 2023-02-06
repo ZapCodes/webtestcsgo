@@ -1,0 +1,44 @@
+{
+  "db": {
+    "db_host": "127.0.0.1",
+    "db_port": "3306",
+    "db_user": "root",
+    "db_password": "Server2023",
+    "db_name": "csgo"
+  },
+  "hostname": "0.0.0.0",
+  "serverPort": "3535",
+  "apacheProxy": false,
+  "scheduleConfig": {
+    "delete": "12",
+    "notif": "24"
+  },
+  "usersTable": "tbl_users",
+  "settingTable": "tbl_settings",
+  "serverTable": "tbl_servers",
+  "salestable": "tbl_sales",
+  "audittable": "tbl_audit_logs",
+  "bundletable": "tbl_bundles",
+  "bundleRELtable": "tbl_rel_bundle_server",
+  "jwt": {
+    "key": "add some random generated string here min 32length"
+  },
+  "app": {
+    "secret": "add some random generated string here min 32length"
+  },
+  "steam_api_key": "5E16DB81C103F20BC051032AA894C3EE",
+  "payment_gateways": {
+    "paypal": {
+      "paypal_client_id": "AdLyRl3va9O-__C1DFb16V06hDfnR1HHseR8WNkPUOs6haM9hyQ4MJc9taeQEozxQ_pJjAvrxWfAU8X9"
+    },
+    "payU": {
+      "enabled": "write true to enable payu and false to disable payu, make sure to write true or false without double codes as it is boolean value",
+      "environment": "write test to run payu in test environment, live to make payu work with live payments",
+      "merchantKey": "your payu merchant key (test key for test, live key for live)",
+      "merchantSalt": "your payu merchant salt (test salt for test, live salt for live)"
+    }
+  },
+  "logging": {
+    "logLevel": "INFO"
+  }
+}
