@@ -6,7 +6,7 @@
     "db_password": "Server2023",
     "db_name": "csgo"
   },
-  "hostname": "kesonpede.servegame.com",
+  "hostname": "85.253.161.116",
   "serverPort": "3535",
   "apacheProxy": false,
   "scheduleConfig": {
