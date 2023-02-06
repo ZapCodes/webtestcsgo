@@ -7,7 +7,7 @@
     "db_name": "csgo"
   },
   "hostname": "85.253.161.116",
-  "serverPort": "3535",
+  "serverPort": "10000",
   "apacheProxy": false,
   "scheduleConfig": {
     "delete": "12",
